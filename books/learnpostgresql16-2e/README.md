@@ -181,7 +181,7 @@ In particular, in order to get the database structure as shown in the book, you 
 ```shell
 $ cd setup
 $ sh 001-create-database-users.sh
-$ psql -U postgres  < 002-forum-database.sql
+$ sudo -u postgres psql -U postgres  < 002-forum-database.sql
 ```
 
 where
